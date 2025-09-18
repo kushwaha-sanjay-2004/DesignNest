@@ -1,0 +1,112 @@
+/* ===== Global Styles ===== */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  background: linear-gradient(90deg, #0d6efd, #6610f2);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+.navbar .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  margin-left: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.navbar .nav-link:hover {
+  color: #ffd700 !important;
+  transform: scale(1.05);
+}
+
+/* ===== Hero Section ===== */
+.hero {
+  background: linear-gradient(120deg, #0d6efd, #6610f2);
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+  border-radius: 0 0 40px 40px;
+}
+.hero h1 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+.hero .btn {
+  border-radius: 30px;
+  padding: 12px 30px;
+  font-weight: 600;
+}
+
+/* ===== Cards & Features ===== */
+.card {
+  border-radius: 15px;
+  transition: all 0.4s ease;
+  border: none;
+}
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+.card-title {
+  font-weight: 600;
+}
+
+/* ===== Pricing ===== */
+.pricing-card-title {
+  font-size: 2rem;
+  margin: 15px 0;
+}
+.card-header {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* ===== Gallery ===== */
+.img-fluid {
+  border-radius: 15px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.img-fluid:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+}
+
+/* ===== Contact Page ===== */
+form .form-control {
+  border-radius: 12px;
+  padding: 12px;
+  border: 2px solid #ddd;
+  transition: border-color 0.3s ease;
+}
+form .form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: none;
+}
+form button {
+  border-radius: 25px;
+  font-weight: 600;
+  padding: 12px;
+  transition: background 0.3s ease;
+}
+form button:hover {
+  background: #6610f2;
+}
+
+/* ===== Footer ===== */
+footer {
+  background: #212529;
+  color: #ddd;
+  font-size: 0.9rem;
+  padding: 15px 0;
+}
+footer p {
+  margin: 0;
+  letter-spacing: 0.5px;
+}
